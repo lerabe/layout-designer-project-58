@@ -14,64 +14,76 @@
 
 <body>
     <header class="header">
-        <div>
-            <h1 class="title acsent">Когнитивные искажения</h1>
-            <h1 class="title">в программировании</h1>
-            <img src="assets/images/main.png" alt="разработчик за работой">
-        </div>
-        <div>
-            <p>Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы
-                часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда
-                с ними можно как-то справиться, а иногда, к сожалению, нет.</p>
-            <p>Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере
-                продуктивности, багам и бесконечному разочарованию.</p>
-            <p>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и
-                цикл, а остатки нейтрализовать.</p>
-            <button class="button">ПОДРОБНЕЕ</button>
+        <div class="container header-content">
+            <h1 class="title">
+                <span class="acsent">Когнитивные<br>искажения</span><br>
+                в программировании
+            </h1>
+
+            <div class="header-text">
+                <div class="header-text-item">
+                    <p>Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью.
+                        Но мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые
+                        существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.</p>
+                </div>
+
+                <div class="header-text-item">
+                    <p>Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере
+                        продуктивности, багам и бесконечному разочарованию.</p>
+                    <p>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем
+                        сломать
+                        и цикл, а остатки нейтрализовать.</p>
+
+                    <a class="button" href="#navigation">ПОДРОБНЕЕ</a>
+                </div>
+            </div>
+
+            <img class="header-img" src="assets/images/main.png" alt="разработчик за работой">
         </div>
     </header>
     <main>
-        <section class="video">
+        <section class="preview-image">
             <h1 class="title">Что же это такое,</h1>
             <h1 class="title acsent">когнитивные искажения?</h1>
             <p>Что такое когнитивные искажения. Petrovna Channel</p>
-            <img src="assets/images/preview.png" alt="превью видео">
-            <div class="rectangle"></div>
+            <a href="https://youtu.be/jie9AizBqss?feature=shared">
+                <img class="img" src="assets/images/preview.png" alt="превью видео">
+            </a>
         </section>
-        <section class="navigation">
+        <section class="navigation" id="navigation">
             <div class="container">
                 <ul class="nav-list">
-                    <li class="nav-title">
+                    <div class="nav-title">
                         <h2 class="acsent">5 когнитивных искажений</h2>
                         <h2 class="white-title">о существовании которых стоит помнить</h2>
-                    </li>
-                    <li class="nav-card">
+                    </div>
+                    <div class="nav-card">
                         <h2 class="number">1</h2>
                         <h3 class="acsent">Эффект ИКЕА</h3>
                         <p>Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других. </p>
-                    </li>
-                    <li class="nav-card">
+                    </div>
+                    <div class="nav-card">
                         <h2 class="number">2</h2>
                         <h3 class="acsent">Преждевременная оптимизация</h3>
                         <p>Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
-                    </li>
-                    <li class="nav-card">
+                    </div>
+                    <div class="nav-card">
                         <h2 class="number">3</h2>
                         <h3 class="acsent">Искажение новизны</h3>
                         <p>Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более
                             старые. </p>
-                    </li>
-                    <li class="nav-card">
+                    </div>
+                    <div class="nav-card">
                         <h2 class="number">4</h2>
                         <h3 class="acsent">Гиперболическое обесценивание</h3>
                         <p>Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас,
                             но доступную в будущем.</p>
-                    </li>
-                    <li class="nav-card">
+                    </div>
+                    <div class="nav-card">
                         <h2 class="number">5</h2>
                         <h3 class="acsent">Ошибка планирования</h3>
                         <p>Неправильно рассчитывать время необходимое для завершения задачи.   </p>
-                    </li>
+                    </div>
                 </ul>
             </div>
         </section>
